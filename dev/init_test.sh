@@ -3,7 +3,7 @@
 # Checks pep8 style of all python files
 # also runs all unittests
 
-# remove and restore database
+# remove & restore database
 
 pep8 . && python3 -m unittest discover -v ./tests/ \
     && HBNB_MYSQL_USER=hbnb_dev \

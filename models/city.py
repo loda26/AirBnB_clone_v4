@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-City Class from Models Module
+City class from Models Module
 """
 import os
 from models.base_model import BaseModel, Base

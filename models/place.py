@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Place Class from Models Module
+Place class from Models Module
 """
 import os
 from models.base_model import BaseModel, Base
@@ -54,14 +54,13 @@ class Place(BaseModel, Base):
         price_by_night = 0
         latitude = 0.0
         longitude = 0.0
-        amenity_ids = []
-        review_ids = []
 
         @property
         def amenities(self):
             """
                 getter for amenitiess list, i.e. amenities attribute of self
             """
+            amenity_ids = []
             if len(self.amenity_ids) > 0:
                 return amenity_ids
             else:
@@ -80,6 +79,7 @@ class Place(BaseModel, Base):
             """
                 getter for reviews list, i.e. reviews attribute of self
             """
+            review_ids = []
             if len(self.review_ids) > 0:
                 return review_ids
             else:

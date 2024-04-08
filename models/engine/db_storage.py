@@ -12,7 +12,7 @@ from models import base_model, amenity, city, place, review, state, user
 
 class DBStorage:
     """
-        handles long term storage of all class instances
+        handles long term storage of all class instance
     """
     CNC = {
         'Amenity': amenity.Amenity,

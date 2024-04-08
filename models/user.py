@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-User Class from Models Module
+User Class from Models
 """
 import hashlib
 import os

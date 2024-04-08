@@ -15,7 +15,7 @@ def amenities_per_place(place_id=None):
         reviews route to handle http method for requested reviews by place
     """
     place_obj = storage.get('Place', place_id)
-
+    response = []
     if request.method == 'GET':
         if place_obj is None:
             abort(404, 'Not found')

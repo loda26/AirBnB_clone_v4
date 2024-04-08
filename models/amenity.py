@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Amenity Class from Models Module
+Amenity Class from Models
 """
 import os
 from models.base_model import BaseModel, Base

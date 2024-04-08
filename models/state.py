@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-State Class from Models Module
+State Class from Models
 """
 import os
 import models

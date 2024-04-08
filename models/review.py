@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Review Class from Models Module
+Review Class from Models
 """
 import os
 from models.base_model import BaseModel, Base

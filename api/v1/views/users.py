@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    Flask route that returns json response
+    Flask route that returns json resp
 """
 from api.v1.views import app_views
 from flask import abort, jsonify, request

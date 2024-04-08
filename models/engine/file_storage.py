@@ -25,7 +25,7 @@ class FileStorage:
     }
     """CNC - this variable is a dictionary with:
     keys: Class Names
-    values: Class type (used for instantiation)
+    values: Class type
     """
     __file_path = './dev/file.json'
     __objects = {}
